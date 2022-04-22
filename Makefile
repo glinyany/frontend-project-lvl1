@@ -31,4 +31,4 @@ push:
 	git push origin master --tags
 
 publish:
-	npm publish
+	npm publish --dry-run
