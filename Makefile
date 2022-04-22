@@ -7,20 +7,15 @@ install:
 brain-games:
 	node bin/brain-games.js
 
+lint:
+	npx eslint .
+
 help:
 	echo help
-
-babel:
-	babel lib/ -d src/
-
-test: babel
-	mocha -R spec
 
 eslint:
 	DEBUG="eslint:cli-engine" eslint .
 
-watch:
-	watchd lib/**.js test/**.js package.json -c 'bake babel'
 
 release: version push publish
 
