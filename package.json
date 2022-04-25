@@ -12,7 +12,10 @@
     "eslint-plugin-import": "^2.26.0"
   },
   "type": "module",
-  "bin": "bin/brain-games.js",
+  "bin": {
+    "brain-games": "bin/brain-games.js",
+    "brain-even": "bin/brain-even.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/glinyany/frontend-project-lvl1.git"
