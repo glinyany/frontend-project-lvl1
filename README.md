@@ -4,9 +4,9 @@
 ![linter](https://github.com/glinyany/frontend-project-lvl1/actions/workflows/nodejs.yml/badge.svg)
 
 <h1 align="center">Project Title</h1>
-<h3>The Brain Games(console game) - First Hexlet Project</h3>
+<h3 align="center">The Brain Games(console game) - First Hexlet Project</h3>
 <h2>Description</h2>
-<h3>This repository contains five console games which were created to check my first steps in JS. You can win by successfully answering 3 questions in a row in the selected game. To start the game, enter the name of the game and press enter. Have fun!</h3> 
+<p>This repository contains five console games which were created to check my first steps in JS. You can win by successfully answering 3 questions in a row in the selected game. To start the game, enter the name of the game and press enter. Have fun!</p> 
 
 <h2>Game list</h2>
 <ol>
