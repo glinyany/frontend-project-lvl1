@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 /* eslint-disable no-plusplus */
 import readlineSync from 'readline-sync';
 
