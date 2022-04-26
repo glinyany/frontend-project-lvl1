@@ -8,7 +8,7 @@ brain-games:
 	node bin/brain-games.js
 
 brain-even:
-	node bin/brain-even.js
+	node bin/brain-evenStart.js
 
 brain-calc:
 	node bin/brain-calcStart.js
