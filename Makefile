@@ -16,7 +16,7 @@ brain-calc:
 brain-gcd:
 	node bin/brain-gcdStart.js
 
-brain-progression
+brain-progression:
 	node bin/brain-progressionStart.js
 
 lint:

@@ -16,8 +16,8 @@ const calc = (randomNumberFirst, randomNumberSecond, randomOperator) => {
 };
 
 const generateRound = () => {
-  const randomNumberFirst = _.random(1,10);
-  const randomNumberSecond = _.random(1,10);
+  const randomNumberFirst = _.random(1,50);
+  const randomNumberSecond = _.random(1,50);
   const randomOperator = listOperators[_.random(listOperators.length - 1)];
   const question = `${randomNumberFirst} ${randomOperator} ${randomNumberSecond}`;
   const answer = String(calc(randomNumberFirst, randomNumberSecond, randomOperator));
