@@ -15,7 +15,8 @@
   "bin": {
     "brain-games": "bin/brain-games.js",
     "brain-even": "bin/brain-evenStart.js",
-    "brain-calc": "bin/brain-calcStart.js"
+    "brain-calc": "bin/brain-calcStart.js",
+    "brain-gcd": "bin/brain-gcdStart.js"
   },
   "repository": {
     "type": "git",
