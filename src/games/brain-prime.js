@@ -21,7 +21,7 @@ const isPrime = (n) => {
       }
     }
     if (divider.length === 1) {
-        return true;
+      return true;
     }
   }
 };
