@@ -17,7 +17,8 @@
     "brain-even": "bin/brain-evenStart.js",
     "brain-calc": "bin/brain-calcStart.js",
     "brain-gcd": "bin/brain-gcdStart.js",
-    "brain-progression": "bin/brain-progressionStart.js"
+    "brain-progression": "bin/brain-progressionStart.js",
+    "brain-prime": "bin/brain-primeStart.js"
   },
   "repository": {
     "type": "git",

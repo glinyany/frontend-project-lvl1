@@ -10,7 +10,7 @@ const findNod = (number1, number2) => { /* Evklid Alg */
     return biggerNumber;
   } else {
       biggerNumber = biggerNumber - smallerNumber;
-      return findNod(biggerNumber,smallerNumber);
+      return findNod(biggerNumber, smallerNumber);
   }
 };
 
