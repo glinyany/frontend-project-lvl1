@@ -4,7 +4,7 @@
 [![linter](https://github.com/glinyany/frontend-project-lvl1/actions/workflows/nodejs.yml/badge.svg?branch=main&event=push)](https://github.com/glinyany/frontend-project-lvl1/actions/workflows/nodejs.yml)
 
 <h1 align="center">First Hexlet Project</h1>
-<h3 align="center">The Brain Games(console games). - </h3>
+<h3 align="center">The Brain Games(console games).</h3>
 <h2>Description</h2>
 <p>This repository contains five console games which were created to check my first steps in JS. You can win by successfully answering 3 questions in a row in the selected game. To start the game, enter the name of the game and press enter. Have fun!</p> 
 
@@ -35,7 +35,11 @@
 <h2>Examples</h2>
 
 <h3>brain-calc</h3>
+
 <h3>brain-even</h3>
+
 <h3>brain-gcd</h3>
+
 <h3>brain-prime</h3>
+
 <h3>brain-progression</h3>
