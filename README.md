@@ -35,11 +35,15 @@
 <h2>Examples</h2>
 
 <h3>brain-calc</h3>
-
+<img width="572" alt="brain-calc" src="https://user-images.githubusercontent.com/40301337/165836522-3d5aca68-d1a5-4b0b-9a54-17cc11b677cd.png">
 <h3>brain-even</h3>
-
+<img width="572" alt="brain-even" src="https://user-images.githubusercontent.com/40301337/165837071-02ca204e-eb40-4820-a1de-10a404ee68d6.png">
 <h3>brain-gcd</h3>
-
+<img width="577" alt="brain-gcd" src="https://user-images.githubusercontent.com/40301337/165837143-e2bf90da-aac8-48b4-a78a-42df318f9636.png">
 <h3>brain-prime</h3>
-
+<img width="572" alt="brain-prime" src="https://user-images.githubusercontent.com/40301337/165837182-ec9cfe61-e8e9-4025-8836-2cf178b56897.png">
 <h3>brain-progression</h3>
+<img width="572" alt="brain-progression" src="https://user-images.githubusercontent.com/40301337/165837229-93e732bb-1bde-4f82-ab41-dffbeea14c85.png">
+
+
+
