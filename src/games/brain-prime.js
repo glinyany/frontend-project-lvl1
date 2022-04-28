@@ -3,27 +3,18 @@ import startBrainGame from '../index.js';
 
 const rulesOfGame = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
-const isPrime = (n) => {
-  const divider = [n];
-  if (n === 2) {
+const isPrime = (number) => {
+  if (number < 2) {
+    return false;
+  }
+  else if (number === 2) {
     return true;
   }
-  else if (n <= 1) {
-    return false;
-  }
-  else if (n % 2 === 0) {
-    return false;
-  }
-  else if (n >= 3) {
-    for (let i = 3; i <= n - 1; i += 2) {
-      if (n % i === 0) {
-        divider.push(i);
-      }
+  for (let i = 2; i <= number / 2; i += 1) {
+    if (number % i === 0) {
+      return false;
     }
-    if (divider.length === 1) {
-      return true;
-    }
-  }
+  } return true;
 };
 
 const generateRound = () => {
