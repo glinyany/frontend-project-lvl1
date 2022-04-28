@@ -22,6 +22,9 @@ brain-progression:
 brain-prime:
 	node bin/brain-primeStart.js
 
+lint:
+	npx eslint .
+
 push:
 	git push origin master --tags
 
