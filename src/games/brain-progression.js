@@ -14,7 +14,8 @@ const generateProgression = (startItem, stepItem) => {
     }
     valueOfItem = progressionArray[hiddenItemIndex];
     progressionArray[hiddenItemIndex] = '..';
-    return progressionArray;
+    const arrToPrint = progressionArray.join(' ');
+    return arrToPrint;
 };
 
 const generateRound = () => {
