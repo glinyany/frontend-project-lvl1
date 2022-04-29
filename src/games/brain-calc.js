@@ -4,22 +4,22 @@ import startBrainGame from '../index.js';
 const rulesOfGame = 'What is the result of the expression?';
 const listOperators = ['+', '-', '*'];
 
-const calc = (randomNumberFirst, randomNumberSecond, randomOperator) => {
-  switch (randomOperator) {
-    case '+': return randomNumberFirst + randomNumberSecond;
-    case '-': return randomNumberFirst - randomNumberSecond;
-    case '*': return randomNumberFirst * randomNumberSecond;
+const calc = (numberFirst, numberSecond, operator) => {
+  switch (operator) {
+    case '+': return numberFirst + numberSecond;
+    case '-': return numberFirst - numberSecond;
+    case '*': return numberFirst * numberSecond;
     default:
-      throw new Error(`Wrong operator - ${randomOperator}, use (+ or - or *)`);
+      throw new Error(`Wrong operator - ${operator}, use (+ or - or *)`);
   }
 };
 
 const generateRound = () => {
-  const randomNumberFirst = _.random(1, 50);
-  const randomNumberSecond = _.random(1, 50);
-  const randomOperator = listOperators[_.random(listOperators.length - 1)];
-  const question = `${randomNumberFirst} ${randomOperator} ${randomNumberSecond}`;
-  const answer = String(calc(randomNumberFirst, randomNumberSecond, randomOperator));
+  const numberFirst = _.random(1, 50);
+  const numberSecond = _.random(1, 50);
+  const operator = listOperators[_.random(listOperators.length - 1)];
+  const question = `${numberFirst} ${operator} ${numberSecond}`;
+  const answer = String(calc(numberFirst, numberSecond, operator));
   return [question, answer];
 };
 
