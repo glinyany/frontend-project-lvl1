@@ -12,10 +12,10 @@ const findNod = (number1, number2) => { /* Evklid Alg */
 };
 
 const generateRound = () => {
-  const randomNumberFirst = _.random(1, 50);
-  const randomNumberSecond = _.random(1, 50);
-  const question = `${randomNumberFirst} ${randomNumberSecond}`;
-  const answer = String(findNod(randomNumberFirst, randomNumberSecond));
+  const numberFirst = _.random(1, 50);
+  const numberSecond = _.random(1, 50);
+  const question = `${numberFirst} ${numberSecond}`;
+  const answer = String(findNod(numberFirst, numberSecond));
   return [question, answer];
 };
 

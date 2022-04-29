@@ -6,9 +6,9 @@ const rulesOfGame = 'Answer "yes" if the number is even, otherwise answer "no".'
 const isEven = (n) => n % 2 === 0;
 
 const generateRound = () => {
-  const randomNumber = _.random(1, 50);
-  const question = `${randomNumber}`;
-  const answer = isEven(randomNumber) ? 'yes' : 'no';
+  const number = _.random(1, 50);
+  const question = `${number}`;
+  const answer = isEven(number) ? 'yes' : 'no';
   return [question, answer];
 };
 
